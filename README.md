@@ -1,12 +1,12 @@
 # BestTrace for Linux 用法说明
-登陆SSH
 
-wget https://github.com/zhucaidan/BestTrace-Linux/raw/master/besttrace4linux.zip
+通过SSH登录你的服务器
 
-unzip besttrace4linux.zip
-
-yum install -y unzip zip
-
+国内机:
+wget https://cdn.ipip.net/17mon/besttrace4linux.zip &&
+yum install -y unzip zip &&
+unzip besttrace4linux.zip &&
 chmod +x besttrace
 
+用法:
 ./besttrace X.X.X.X
