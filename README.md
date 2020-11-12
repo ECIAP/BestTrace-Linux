@@ -4,7 +4,7 @@
 
 For RHEL / CentOS:
 ```
-wget https://cdn.ipip.net/17mon/besttrace4linux.zip &&
+wget https://github.com/ECIAP/BestTrace-Linux/raw/master/besttrace4linux.zip &&
 yum install -y unzip zip &&
 unzip besttrace4linux.zip &&
 chmod +x besttrace
